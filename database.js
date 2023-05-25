@@ -1,5 +1,8 @@
 const mongoose = require("mongoose");
 const express = require("express");
+const cors = require("cors");
+const { copyFileSync } = require("fs");
+const { Console } = require("console");
 const path = require("path");
 
 const app = express();
